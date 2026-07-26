@@ -1,0 +1,26 @@
+"""
+membership operaters
+
+in 
+not in
+"""
+"""
+authorisation = [ "admin", "staff", "manager"]
+user_input = input("Enter a role: ")
+if user_input in authorisation:
+    print("Access granted for", user_input)
+else:    print("Access denied for", user_input)"""
+
+
+blocked_users = ["user1", "user2", "user3"]
+username = input("Enter your username: ")
+if username not in blocked_users:
+    print("Welcome", username)
+else:    print("Access denied for", username)
+
+
+""""
+== to check if two values are equal
+is to check if two variables point to the same object in memory
+
+"""

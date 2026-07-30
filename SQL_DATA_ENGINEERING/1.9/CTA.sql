@@ -1,4 +1,4 @@
-
+---SQL_DATA_ENGINEERING/1.9/CTA.sql
 
 create OR REPLACE table staging.job_postings_flat AS
 SELECT

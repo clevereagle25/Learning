@@ -1,3 +1,5 @@
+-- .read SQL_DATA_ENGINEERING/1.9/part3/priority_roles.sql
+
 CREATE OR REPLACE TABLE staging.priority_roles(
     role_id INTEGER PRIMARY KEY,
     role_name VARCHAR,
